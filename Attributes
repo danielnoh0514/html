@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+  </head>
+  <body>
+    <form>
+      <!-- # choose file. only accepts pdf file -->
+      <input type="file" accept=".pdf" />
+      <input required placeholder="First Name" type="text" />
+      <input required placeholder="Last Name" type="text" />
+      <input required placeholder="Username" type="text" />
+      <input required placeholder="Password" minlength="10" type="password" />
+      <input type="submit" value="Creae Account" />
+    </form>
+  </body>
+</html>
