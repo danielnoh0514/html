@@ -1,0 +1,13 @@
+# dotted list
+<ul>
+  <li>beer</li>
+  <li>milk</li>
+  <li>juice</li>
+</ul>
+
+# numbered list
+<ol>
+  <li>dog</li>
+  <li>cat</li>
+  <li>giraffe</li>
+</ol>
