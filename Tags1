@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="shorcut icon" size="16x16 32x32 64x64" href="turtle.jpg" />
+    <title>MinMin</title>
+    <meta name="description" content="This is my website" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    I love ramen
+    <p>I love ramen</p>
+    <pre>I love ramen</pre>
+    # put cursor on KMN and it shows text of the title
+    <p>My name is <abbr title="Kyoungmin Noh">KMN</abbr></p>
+    # highlights text in mark
+    <p>I like <mark>ramen</mark></p>
+    # bold text
+    <p>I like <strong>ramen</strong></p>
+  </body>
+</html>
