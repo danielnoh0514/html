@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    # this is the small icon you see on the tab bar
+    <link
+      rel="shorcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://nomadcoders.co/m.png"
+    />
+    <title>Hello to My World</title>
+    <meta name="description" content="This is my website" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    hola mi amigo
+  </body>
+</html>
