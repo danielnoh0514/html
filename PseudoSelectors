@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+    <meta name="description" content="This is my website" />
+    <meta charset="utf-8" />
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      div {
+        background-color: wheat;
+        width: 300px;
+        height: 300px;
+        position: relative;
+      }
+      /* pseudo selectors */
+      div:last-child {
+        background-color: teal;
+      }
+      div:first-child {
+        background-color: seagreen;
+      }
+      span {
+        background-color: tomato;
+      }
+      span:nth-child(2) {
+        background-color: thistle;
+      }
+      span:nth-child(4) {
+        background-color: honeydew;
+      }
+      span:nth-child(even) {
+        background-color: aqua;
+      }
+      span:nth-child(odd) {
+        background-color: pink;
+      }
+      span:nth-child(3n + 1) {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+  </body>
+</html>
