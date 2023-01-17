@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+    <meta name="description" content="This is my website" />
+    <meta charset="utf-8" />
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      span {
+        color: tomato;
+      }
+      /* changing span that's inside of p */
+      p span {
+        background-color: teal;
+      }
+      /* changing span next to p */
+      p + span {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>hello</span>
+      <p>
+        paragraph paragraph paragraph paragraph paragraph
+        <span>inside</span>
+      </p>
+      <span>weeeeeeee</span>
+    </div>
+  </body>
+</html>
