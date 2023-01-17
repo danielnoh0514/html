@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minji</title>
+    <meta name="description" content="This is my website" />
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="maple.png" />
+    <style>
+      /* saving a variable */
+      :root {
+        --main-color: #e6e2b5;
+        --default-border: 1px solid var(--main-color);
+      }
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      /* Designing placeholder */
+      input::placeholder {
+        color: var(--main-color);
+      }
+      p {
+        background-color: var(--main-color);
+      }
+      a {
+        color: var(--main-color);
+        border-color: var(--default-border);
+      }
+    </style>
+  </head>
+  <body>
+    <form><input type="text" placeholder="Name" /></form>
+    <p>MINJIMINJIMINJIMINJIMINJIMINJIMINJIMINJIMINJIMINJI</p>
+    <a href="https://apple.com">Go to apple.com</a>
+  </body>
+</html>
