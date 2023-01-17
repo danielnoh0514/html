@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minji</title>
+    <meta name="description" content="This is my website" />
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="maple.png" />
+    <style>
+      a {
+        color: wheat;
+        background-color: tomato;
+        /* removes the underline on the link */
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 50px;
+        transition: all 1s ease-in-out;
+      }
+      a:hover {
+        font-size: 70px;
+        color: tomato;
+        background-color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://apple.com">Go to apple.com</a>
+  </body>
+</html>
