@@ -1,0 +1,12 @@
+Blocks - can't put stuff beside it (div,header,etc)
+inline - can put stuff beside it (text, img, link)
+
+div { # once you change block -> inline, you can't have height and width
+        display: inline;
+        background-color: black;
+        height: 150px;
+        width: 150px;
+      }
+
+Blocks - margin, padding, border
+collapsing margin - when two blocks have the same border then their margin joins together (only top bottom)
